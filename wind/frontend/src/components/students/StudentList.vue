@@ -56,7 +56,6 @@ export default {
         this.text = '面试题';
     },
     updated() {
-        console.log("触发更新？ ？", this.text);
     },
     computed: {
         studentList() {
